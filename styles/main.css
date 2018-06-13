@@ -1,0 +1,77 @@
+.boton {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  z-index: 5;
+}
+
+.rectangle-3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+}
+
+.hero {
+  background-image: url("../images/cover.jpg");
+  width: 100%;
+  height: %100%;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  width: 290px;
+  height: 110px;
+  font-family: RobotoSlab;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.parrafo {
+  width: 290px;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+h2 {
+  width: 290px;
+  height: 60px;
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  width: 320px;
+  height: 568px;
+}
+
+/*# sourceMappingURL=main.css.map */
