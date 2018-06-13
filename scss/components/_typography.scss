@@ -15,11 +15,26 @@
   color: #ffffff;
 }
 h2{
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
   width: 290px;
   height: 60px;
-  font-family: RobotoSlab;
+  font-family: $font2;
   font-size: 24px;
   font-weight: bold;
   color: #000000;
   text-transform: capitalize;
+}
+p{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.section3{
+  width: 100%;
+ height: 624px;
+ background-color: $colorsection3;
+}
+h3{
+  margin-left: 68px;
 }
