@@ -12,12 +12,10 @@
   border-radius: 22.5px;
   background-color: $colorblanco;
   border-width: 0;
-  margin-bottom: 53px;
-}
-@media all and (min-width: 768px) {
-  .rectangle-3{
+  margin-top: 45px;
+
+  @media all and (min-width: 768px) {
     margin-top: 30px;
-    margin-bottom: 45px;
   }
 }
 .go{

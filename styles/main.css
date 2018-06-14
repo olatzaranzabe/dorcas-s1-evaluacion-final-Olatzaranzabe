@@ -123,6 +123,7 @@
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  margin-bottom: 53px;
 }
 
 .title {
@@ -144,6 +145,7 @@
 .parrafo {
   margin-left: 15px;
   margin-right: 15px;
+  margin-top: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -207,7 +209,7 @@
   border-radius: 22.5px;
   background-color: #ffffff;
   border-width: 0;
-  margin-bottom: 53px;
+  margin-top: 45px;
 }
 
 .go {
@@ -454,6 +456,7 @@ p {
 
   .header_1 {
     height: 384px;
+    margin-bottom: 45px;
   }
 
   .title {
@@ -466,6 +469,7 @@ p {
   }
 
   .parrafo {
+    margin-top: 20px;
     font-size: 24px;
     width: 400px;
     height: 32px;
@@ -473,7 +477,6 @@ p {
 
   .rectangle-3 {
     margin-top: 30px;
-    margin-bottom: 45px;
   }
 
   .go {
@@ -516,10 +519,18 @@ p {
     height: 60px;
   }
 
+  .header_1 {
+    margin-bottom: 13px;
+  }
+
   .title {
     font-size: 100px;
     width: 730px;
     height: 264px;
+  }
+
+  .parrafo {
+    margin-top: 0;
   }
 }
 
