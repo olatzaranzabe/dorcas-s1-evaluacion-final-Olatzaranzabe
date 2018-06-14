@@ -9,14 +9,36 @@
   height: 50%;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 53px;
 }
 .title{
+  font-family: $font2;
+  font-size: $font42;
+  font-weight: $font-weight-bold;
   margin-left: 15px;
   margin-right: 15px;
   order: 0;
+  text-transform: uppercase;
+  color: white;
+  width: 290px;
+  height: 110px;
 }
 .parrafo{
   margin-left: 15px;
   margin-right: 15px;
+  font-family: $font1;
+  font-size: $font16;
+  font-weight: $font-weight;
+}
+@media all and (min-width: 720px) {
+  .title{
+    font-size: $font80;
+    width: 690px;
+    height: 212px;
+    justify-content: center;
+  }
+  .parrafo{
+    font-size: $font24;
+    width: 400px;
+    height: 32px;
+  }
 }

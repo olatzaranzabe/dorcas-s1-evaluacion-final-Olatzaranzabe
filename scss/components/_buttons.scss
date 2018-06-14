@@ -4,12 +4,20 @@
   height: 44px;
   position: fixed;
   z-index: 5;
+  border-width: 0;
 }
 .rectangle-3{
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   background-color: $colorblanco;
+  border-width: 0;
+  margin-bottom: 53px;
+}
+@media all and (min-width: 720px) {
+  .rectangle-3{
+    margin-bottom: 45px;
+  }
 }
 .go{
   width: 76px;
@@ -30,15 +38,19 @@
   font-family: $font1;
   font-weight: $font-weight1;
   width: 184px;
- height: 45px;
- border-radius: 22.5px;
- background-color: $colororange;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $colororange;
+  border-width: 0;
 }
 .oval{
+  align-items: center;
   width: 45px;
   height: 45px;
   background-color: $colorblanco;
   border-radius: 50px;
   position: absolute;
   transform: translateY(-50%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-width: 0;
 }
