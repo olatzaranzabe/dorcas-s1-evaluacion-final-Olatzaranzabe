@@ -225,6 +225,16 @@
 }
 
 .morereasons {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #ffffff;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -237,12 +247,29 @@
   margin-top: 60px;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-transition: color ease 0.4s;
+  transition: color ease 0.4s;
+  -webkit-transition: background-color ease 0.4s;
+  transition: background-color ease 0.4s;
+}
+
+.morereasons:hover {
+  color: #f26002;
+  background-color: #ffffff;
+}
+
+.morereasons #more_reasons {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .oval {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 45px;
   height: 45px;
   background-color: #ffffff;
@@ -253,6 +280,10 @@
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-width: 0;
+}
+
+.oval:hover {
+  -webkit-animation: 2s intermitente 1;
 }
 
 .hero {
@@ -480,6 +511,16 @@ p {
     font-size: 100px;
     width: 730px;
     height: 264;
+  }
+}
+
+@-webkit-keyframes intermitente {
+  25%,75% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
   }
 }
 
