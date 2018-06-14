@@ -5,13 +5,13 @@
   font-size: 16px;
   color: #ffffff;
 }
-h2{
+.titulo2{
   margin-left: 15px;
   margin-bottom: 15px;
   margin-right: 15px;
   width: 290px;
   height: 60px;
-  font-family: $font2, sans-serif;
+  font-family: $font2;
   font-size: $font24;
   font-weight: $font-weight-bold;
   font-stretch: normal;
@@ -36,7 +36,7 @@ h2{
 h3{
   width: 184px;
   height: 30px;
-  font-family: $font2, sans-serif;
+  font-family: $font2;
   font-weight:$font-weight-bold;
   font-size: $font18;
   text-align: center;

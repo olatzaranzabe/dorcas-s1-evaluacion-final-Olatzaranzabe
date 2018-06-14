@@ -16,6 +16,7 @@
 }
 @media all and (min-width: 768px) {
   .rectangle-3{
+    margin-top: 30px;
     margin-bottom: 45px;
   }
 }
@@ -48,6 +49,7 @@
   background-color: $colororange;
   border-width: 0;
   margin-top: 60px;
+  align-self: center;
 }
 .oval{
   align-items: center;
