@@ -15,18 +15,17 @@
   text-align: center;
   height:63px;
   width:180px;
+  font-family: $font1;
 }
 .titulo3{
   text-transform: $capitalize;
   height: 30px;
-  width: 390px;
   margin-bottom: 45px;
 }
 @media all and (min-width: 768px) {
   .items_grid{
     height: 292px;
     display: grid;
-    // grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr 1fr 1fr;
     grid-gap:0;
     display: flex;
@@ -78,8 +77,5 @@
   .titulo3{
     margin:30px auto 45px auto;
     text-align: center;
-  }
-  .final{
-
   }
 }

@@ -91,12 +91,12 @@
   text-align: center;
   height: 63px;
   width: 180px;
+  font-family: "Roboto", sans-serif;
 }
 
 .titulo3 {
   text-transform: "capitalize";
   height: 30px;
-  width: 390px;
   margin-bottom: 45px;
 }
 
@@ -351,6 +351,11 @@ p {
 }
 
 @media all and (min-width: 768px) {
+  .section2 {
+    margin-left: 39px;
+    text-align: left;
+  }
+
   .rectangle {
     margin-left: 39px;
     width: 216px;
@@ -491,15 +496,19 @@ p {
 
 @media all and (min-width: 1280px) {
   .section2 {
-    margin-left: 39px;
-    text-align: left;
-  }
-
-  .section2 {
     margin-left: 275px;
     margin-right: 275px;
     margin-top: 0;
     height: 330px;
+  }
+
+  .rectangle,.cuerpo,.go {
+    margin-left: 0px;
+  }
+
+  .titulo2 {
+    margin-left: 0px;
+    width: 400px;
   }
 
   .cuerpo {
@@ -510,7 +519,7 @@ p {
   .title {
     font-size: 100px;
     width: 730px;
-    height: 264;
+    height: 264px;
   }
 }
 
