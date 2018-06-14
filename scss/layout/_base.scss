@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
 }
 .section1{
   width: 320px;
@@ -21,7 +20,13 @@
   line-height: 2.14;
   letter-spacing: normal;
 }
-@media all and (min-width: 1140px) {
+@media all and (min-width: 1280px) {
+  .section2{
+    margin-left: 39px;
+    text-align: left;
+  }
+}
+@media all and (min-width: 1280px) {
   .section2{
     margin-left: 275px;
     margin-right: 275px;
@@ -29,8 +34,9 @@
     height: 330px;
   }
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 768px) {
   .rectangle{
+    margin-left: 39px;
     width: 216px;
     margin-right: 513px;
   }
@@ -43,12 +49,13 @@
   line-height: 1.67;
   letter-spacing: normal;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 768px) {
   .cuerpo{
     font-size: $font20;
+    margin-left: 39px;
   }
 }
-@media all and (min-width: 1140px) {
+@media all and (min-width: 1280px) {
   .cuerpo{
     width: 730px;
     height: 60px;

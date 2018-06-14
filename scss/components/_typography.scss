@@ -20,12 +20,12 @@ h2{
   line-height: 1.25;
   letter-spacing: normal;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 768px) {
   h2{
+    margin-left: 39px;
     font-size: $font26;
     width: 450px;
     height: 45px;
-    text-align: center;
   }
 }
 @media all and (min-width: 1140px) {
