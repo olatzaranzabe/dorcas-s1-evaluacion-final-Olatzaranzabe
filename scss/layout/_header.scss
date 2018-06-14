@@ -1,7 +1,7 @@
 .header{
   display: flex;
-  flex-direction: column;
-
+  height:100vh;
+  text-align: center;
 }
 .header_1{
   display: flex;
@@ -40,5 +40,12 @@
     font-size: $font24;
     width: 400px;
     height: 32px;
+  }
+}
+@media all and (min-width: 1140px) {
+  .title{
+    font-size: $font100;
+    width: 730px;
+    height: 264;
   }
 }

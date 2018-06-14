@@ -13,6 +13,8 @@
   font-size: $font14;
   font-weight: $font-weight;
   margin-top: 38px;
+  line-height: 2.14;
+  letter-spacing: normal;
 }
 .components{
   margin-bottom: 30px;
@@ -20,4 +22,9 @@
   font-family: $font1;
   font-size: $font14;
   font-weight: $font-weight;
+  line-height: 2.14;
+  letter-spacing: normal;
+}
+.corazon{
+  color: $colororange;
 }

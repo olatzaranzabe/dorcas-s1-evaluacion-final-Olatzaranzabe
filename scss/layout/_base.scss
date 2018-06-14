@@ -2,14 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px solid black;
 }
 .section1{
   width: 320px;
   height: 568px;
 }
 .rectangle{
-  width: 90px;
-  height: 30px;
+  width: 216px;
   font-family: $font1;
   font-size: $font14;
   font-weight: $font-weight;
@@ -21,11 +21,19 @@
   line-height: 2.14;
   letter-spacing: normal;
 }
-@media all and (min-width: 720px) {
-.rectangle{
-  width: 216px;
-  margin-right: 513px;
+@media all and (min-width: 1140px) {
+  .section2{
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: 0;
+    height: 330px;
+  }
 }
+@media all and (min-width: 720px) {
+  .rectangle{
+    width: 216px;
+    margin-right: 513px;
+  }
 }
 .cuerpo{
   font-family: $font1;
@@ -34,6 +42,17 @@
   font-weight: $font-weight;
   line-height: 1.67;
   letter-spacing: normal;
+}
+@media all and (min-width: 720px) {
+  .cuerpo{
+    font-size: $font20;
+  }
+}
+@media all and (min-width: 1140px) {
+  .cuerpo{
+    width: 730px;
+    height: 60px;
+  }
 }
 .titulo3{
   margin-top: 30px;
