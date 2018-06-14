@@ -13,10 +13,9 @@
   background-color: $colorblanco;
   border-width: 0;
   margin-top: 45px;
-
-  @media all and (min-width: 768px) {
-    margin-top: 30px;
-  }
+}
+@media all and (min-width: 768px) {
+  margin-top: 30px;
 }
 .go{
   width: 76px;
@@ -30,10 +29,10 @@
   color: $colororange;
   font-size: $font20;
   font-weight: $font-weight1;
-}
-@media all and (min-width: 768px) {
-  .go{
+
+  @media all and (min-width: 768px){
     margin-left: 39px;
+    margin-bottom: 60px;
   }
 }
 .morereasons{
@@ -50,7 +49,8 @@
   border-radius: 22.5px;
   background-color: $colororange;
   border-width: 0;
-  margin-top: 60px;
+  margin-top: 0;
+  margin-bottom: 60px;
   align-self: center;
   transition: color ease 0.4s;
   transition: background-color ease 0.4s;

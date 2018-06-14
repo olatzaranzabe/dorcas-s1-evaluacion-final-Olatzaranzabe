@@ -12,20 +12,14 @@
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 53px;
-
   @media all and (min-width: 768px) {
-
     height: 384px;
     margin-bottom: 45px;
   }
-
   @media all and (min-width: 1280px) {
-
-
     margin-bottom: 13px;
   }
 }
-
 .title{
   font-family: $font2;
   font-size: $font42;
