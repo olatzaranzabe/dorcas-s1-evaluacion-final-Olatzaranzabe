@@ -24,6 +24,21 @@
   letter-spacing: normal;
 }
 
+.tituloanonymus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #f26002;
+  color: #ffffff;
+}
+
+.titulo_2 {
+  margin-left: 10px;
+}
+
 .items_grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,11 +203,6 @@
   margin-top: 45px;
 }
 
-.rectangle-3 .boton_more {
-  margin-top: 0;
-  margin-bottom: 60px;
-}
-
 .go {
   width: 76px;
   height: 45px;
@@ -227,7 +237,8 @@
   border-radius: 22.5px;
   background-color: #f26002;
   border-width: 0;
-  margin-top: 60px;
+  margin-top: 0;
+  margin-bottom: 60px;
   -ms-flex-item-align: center;
   align-self: center;
   -webkit-transition: color ease 0.4s;
@@ -349,22 +360,13 @@ p {
     margin-left: 39px;
   }
 
-  .titulo3 {
-    margin-top: 30px;
-    text-align: center;
+  .cuerpo {
+    font-size: 20px;
+    margin-left: 39px;
   }
 
-  .section3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  .tituloanonymus {
+    background-color: #0271bc;
   }
 
   .items_grid {
@@ -473,10 +475,6 @@ p {
     height: 32px;
   }
 
-  .rectangle-3 {
-    margin-top: 30px;
-  }
-
   .go {
     margin-left: 39px;
     margin-bottom: 60px;
@@ -490,7 +488,13 @@ p {
   }
 }
 
-@media all and (min-width: 768px) and (min-width: 1280px) {
+@media all and (min-width: 1140px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media all and (min-width: 1280px) {
   .section2 {
     margin-left: 275px;
     margin-right: 275px;
@@ -517,22 +521,25 @@ p {
     width: 730px;
     height: 60px;
   }
-}
 
-@media all and (min-width: 768px) and (min-width: 768px) {
-  .cuerpo {
-    font-size: 20px;
-    margin-left: 39px;
+  .titulo3 {
+    margin-top: 30px;
+    text-align: center;
   }
-}
 
-@media all and (min-width: 1140px) {
-  h2 {
-    font-size: 32px;
+  .section3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-}
 
-@media all and (min-width: 1280px) {
   .final {
     font-size: 20px;
     width: 353.8px;

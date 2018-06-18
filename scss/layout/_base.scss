@@ -33,45 +33,62 @@
   .titulo2, .cuerpo {
     margin-left: 39px;
   }
-  @media all and (min-width: 1280px) {
-    .section2{
-      margin-left: 275px;
-      margin-right: 275px;
-      margin-top: 0;
-      height: 330px;
-    }
-    .rectangle, .cuerpo, .go{
-      padding-left: 0px;
-    }
-    .titulo2{
-      width: 400px;
-      margin-bottom: 0;
-    }
+}
+@media all and (min-width: 1280px) {
+  .section2{
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: 0;
+    height: 330px;
   }
-  @media all and (min-width: 768px) {
-    .cuerpo{
-      font-size: $font20;
-      margin-left: 39px;
-    }
+  .rectangle, .cuerpo, .go{
+    padding-left: 0px;
   }
-  @media all and (min-width: 1280px) {
-    .cuerpo{
-      font-family: $font1;
-      color: $colorcuerpo;
-      font-size: $font18;
-      font-weight: $font-weight;
-      line-height: 1.67;
-      letter-spacing: normal;
-      width: 730px;
-      height: 60px;
-    }
-    .titulo3{
-      margin-top: 30px;
-      text-align: center;
-    }
-    .section3{
-      display: flex;
-      flex-direction:column;
-      align-items: center;
-    }
+  .titulo2{
+    width: 400px;
+    margin-bottom: 0;
   }
+}
+@media all and (min-width: 768px) {
+  .cuerpo{
+    font-size: $font20;
+    margin-left: 39px;
+  }
+}
+@media all and (min-width: 1280px) {
+  .cuerpo{
+    font-family: $font1;
+    color: $colorcuerpo;
+    font-size: $font18;
+    font-weight: $font-weight;
+    line-height: 1.67;
+    letter-spacing: normal;
+    width: 730px;
+    height: 60px;
+  }
+  .titulo3{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .section3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+}
+
+.tituloanonymus{
+  display: flex;
+  justify-content: space-between;
+  background-color: $colororange;
+  color: $colorblanco;
+}
+.titulo_2{
+  margin-left: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .tituloanonymus{
+    background-color: $colorblue;
+  }
+}
